@@ -1,59 +1,59 @@
 loop do
-  print "Hola! Digite su nombre: "
+  print "Hello! Type you name: "
   name = gets.chomp
   if name.nil? or name.empty?
-    puts "No digito su nombre!"
+    puts "Oops!! You didn't type your name"
   else
-   puts "Hola #{name}, maravilloso nombre!"
+   puts "Hi #{name}, wonderful name!"
       break
       end
 end
 while true
-puts "Digite T para saber la fecha o no para salir"
+puts "Type T to see the date or type No to continue"
 answer2 = gets.chomp
 if answer2 == "t"
 time1 = Time.new
 puts "Current Time : " + time1.inspect
  break
 elsif answer2 == "no"
-puts "pues sino te interesa no te digo"
+puts "Well, if you don't want me to tell you it's ok"
  break
 else
-puts "Digita si o no solamente!"
+puts "Just type T or No!"
 end
 end
 while true
-puts "Digite Si para saber la temperatura o No para continuar"
+puts "Type Yes or Not if you want to know the weather"
 answer = gets.chomp
-if answer == "si"
-puts "La temperatura es 32, un caloraso!"
+if answer == "yes"
+puts "The weather is 99 in the shade!"
  break
 elsif answer == "no"
-puts "Que aburrido eres!"
+puts "You are sooo boring!"
  break
 else
-puts "Te dije digitaras Si o No!"
-puts "Vamos a intentarlo de nuevo"
+puts "I told you... Yes or No!"
+puts "Let's try this again"
 end
 end
-puts "pensaste ibas a salir de mi?"
+puts "Did you think you would get rid of me?"
 while true
-puts "Quieres saber el dia de hoy?"
-puts " Si o no"
+puts "Would you like to know which day is it today?"
+puts " Yes or Not"
 answer3 = gets.chomp
-if answer3 == "si"
+if answer3 == "yes"
 time = Time.new
 puts time.strftime("Today is %A")
-puts "Te veo luego"
+puts "Smell you later"
  break
 elsif answer3 == "no"
-puts "Tienes razon, quien no lo sabe?"
-puts "baaaaaayyy"
+puts "You're right, who doesn't know which day is today?"
+puts "Later!!"
  break
 else
-puts "Amigo, que ponga Si o No"
-puts "deje de escribir sandeces!"
-puts "Hagamos esto otra vez..."
+puts "Pal, just type Yes or No"
+puts "For crying out loud!"
+puts "Let's do this again..."
 end
 end
 
