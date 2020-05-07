@@ -1,2 +1,2 @@
 # ruby
-Ruby code
+Welcome to Ruby Coding!
